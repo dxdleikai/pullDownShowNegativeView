@@ -4030,16 +4030,6 @@ http-parser-js@>=0.4.0:
   resolved "https://registry.npm.taobao.org/http-parser-js/download/http-parser-js-0.5.0.tgz#d65edbede84349d0dc30320815a15d39cc3cbbd8"
   integrity sha1-1l7b7ehDSdDcMDIIFaFdOcw8u9g=
 
-http-proxy-middleware@^0.19.1:
-  version "0.19.1"
-  resolved "https://registry.npm.taobao.org/http-proxy-middleware/download/http-proxy-middleware-0.19.1.tgz#183c7dc4aa1479150306498c210cdaf96080a43a"
-  integrity sha1-GDx9xKoUeRUDBkmMIQza+WCApDo=
-  dependencies:
-    http-proxy "^1.17.0"
-    is-glob "^4.0.0"
-    lodash "^4.17.11"
-    micromatch "^3.1.10"
-
 http-proxy@^1.17.0:
   version "1.17.0"
   resolved "https://registry.npm.taobao.org/http-proxy/download/http-proxy-1.17.0.tgz#7ad38494658f84605e2f6db4436df410f4e5be9a"
@@ -7996,7 +7986,6 @@ webpack-dev-server@^3.3.1:
     del "^4.1.1"
     express "^4.17.0"
     html-entities "^1.2.1"
-    http-proxy-middleware "^0.19.1"
     import-local "^2.0.0"
     internal-ip "^4.3.0"
     ip "^1.1.5"
