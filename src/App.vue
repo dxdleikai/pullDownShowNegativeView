@@ -7,8 +7,13 @@
     <router-view />
   </div>
 </template>
-
+<script>
+ 
+</script>
 <style lang="scss">
+body {
+  position: relative;
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

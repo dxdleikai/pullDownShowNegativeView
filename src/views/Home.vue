@@ -1,7 +1,7 @@
 <template>
 <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    <h2>h5video</h2>
+    <HelloWorld msg="Welcome " />
+    <p>h5video</p>
 	<video ref="h5video" autoplay="autoplay" control="control"></video>
 </div>
 </template>
@@ -73,7 +73,8 @@ export default {
             //     message: '您的浏览器不支持MediaSource',
             //     type: 'warning'
             // })
-		}
+        }
+        
 		// this.$http.get('/api/getProducts').then(res => {  请配置代理5000端口，rest-hello请开启后端服务
 		// 	console.log(11);
 		// 	console.log(resp);

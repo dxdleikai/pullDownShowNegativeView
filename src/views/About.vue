@@ -5,7 +5,7 @@
     </div>
 
     <div class="scroll-box">
-        <h1>正式内容</h1>
+        <p>正式内容</p>
     </div>
   </div>
 </template>
@@ -65,8 +65,13 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+html, body {
+  position: relative;
+}
+.outer-scroll {
+  overflow: hidden;
+}
 .scroll-box {
   width: 100%;
   position: absolute;
